@@ -1,0 +1,235 @@
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-great-primer-sc-regular {
+  font-family: "IM Fell Great Primer SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+    font-family: "Rubik Dirt";
+    font-size: 70pt;
+    text-shadow: 5px 10px 5px #808888;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Rubik Dirt";
+    font-size: 20pt;
+    text-align: center;
+    color: #659d3c;
+    }
+
+body {
+  margin: 0;
+  font-family:"IM Fell Great Primer SC";
+    font-size: 20px;
+    color: #55422b;
+}
+
+p {padding-left: 20px;
+padding-right: 20px;
+font-weight: bold;
+    
+}
+button {font-size: 10pt;
+    font-family: "Times New Roman";
+    text-align: center;
+    color: #659d3c;
+    padding: 20px;
+    background-color: #efefef;
+    box-shadow: 5px 10px 5px #808888;
+    border-radius: 25px;}
+
+.copyright {
+    text-align: center;
+    font-family: "Rubik Dirt";
+}
+
+#quote {
+    font-size: 18pt;
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: center;
+    color: #659d3c;
+    padding: 20px;
+    background-color: #efefef;
+    box-shadow: 5px 10px 5px #808888;
+    border-radius: 25px;
+}
+
+#smallquote {
+   font-size: 16pt;
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: center;
+    color: #659d3c;
+}
+
+.socials {
+  font-size: 16pt;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.socials a:hover {
+  color:#659d3c;
+    border-radius: 25px;
+}
+
+.socials a:visited {
+    color: #708181;
+}
+
+.donate a:hover {
+  color:#55422b;
+  text-decoration: underline;
+}
+
+.donate a:visited {
+  color:#708181;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  min-height: 100vh;
+}
+
+.leftcolumn, .rightcolumn{
+  background: #55422b;
+  overflow: hidden;
+}
+
+.left image, .right image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.centerstuff {
+  padding: 20px;
+    background-color: beige;
+    box-shadow: 10px 0 10px #000000;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center; 
+  margin: 30px 0;
+}
+
+.center-image img {
+  max-width: 80%;  
+  height: auto; 
+  border: 5px solid #659d3c;
+  border-radius: 25px;
+}
+
+.navbar {
+    color:#fffdfa;
+    padding: 20px;
+    font-family: "Rubik Dirt", Sans-serif;
+    background-color: #55422b;
+    border-radius: 25px;
+    border: 5px groove #659d3c;
+    box-shadow: 5px 10px 5px #808888;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  background-color: #659d3c;
+    border-radius: 25px;
+}
+
+.navbar a:visited {
+    color: #708181
+}
+
+.two-column-list {
+  columns: 2; 
+  column-gap: 20px;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+.two-column-list li {
+  break-inside: avoid;
+  margin-bottom: 8px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.row-nested-lists ol {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row-nested-lists li {
+  margin-bottom: 10px;
+}
+
+.row-nested-lists ul {
+  list-style-type: square;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 12pts;
+}
+
+.info-table {
+  width: 80%;               
+  margin: 40px auto;       
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: Center;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+
+.info-table th, .info-table td {
+  border: 1px solid #55422b;
+  padding: 10px 15px;
+}
+
+.info-table th {
+  background-color: #e2dbff;
+  font-weight: bold;
+  font-family: "Rubik Dirt", Sans-serif;
+}
+
+.info-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.info-table tr:nth-child(odd) {
+  background-color: #d1ffaf;
+}
